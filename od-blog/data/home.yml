@@ -29,84 +29,86 @@ services:
   title: "My Services"
   items:
     - icon: "ion-code"
-      name: "Web Development"
-      text: "Modern and mobile-ready website that will help you reach all of your marketing."
+      name: "DevOps Consultant"
+      text: "I will help software development teams to provide applications and software components in an easy, standardised and highly automated manner according to DevOps paradigms"
       h_line: 1
-
-    - icon: "ion-music-note"
-      name: "Music Writing"
-      text: "Music copying, transcription, arranging and composition services."
-      h_line: 1
-
-    - icon: "ion-speakerphone"
-      name: "Advetising"
-      text: "Advertising services include television, radio, print, mail and web."
-      h_line: 0
 
     - icon: "ion-ios-game-controller-b"
-      name: "Game Development"
-      text: "Developing memorable and unique mobile android, ios games."
+      name: "Automation Engineer"
+      text: "Automated build and configuration of the IT infrastructure and platform with Terraform, Ansible, Packer, Kubernetes, Docker, Helm, Argocd ..."
+
+      h_line: 1
+
+    - icon: "ion-upload"
+      name: "AWS Solution Architect"
+      text: "Together, we will design and implement your desired solution AWS Cloud."
       h_line: 0
 
+    - icon: "ion-settings"
+      name: "Technical project leader"
+      text: "Take Technical leadership in IT Project "
+      h_line: 0
+
+
 ### Pricing [ pricing ]
-pricing:
-  title: "Pricing"
-  items:
-    - icon: "ion-speedometer speed-basic"
-      name: "Basic"
-      price_pre: "$"
-      price: "22"
-      price_after: "hour"
-      list:
-        - text: "Web Development"
-          disable: 0
-          new: 0
+# pricing:
+#   title: "Pricing"
+#   items:
+#     - icon: "ion-speedometer speed-basic"
+#       name: "Basic"
+#       price_pre: "$"
+#       price: "22"
+#       price_after: "hour"
+#       list:
+#         - text: "Web Development"
+#           disable: 0
+#           new: 0
 
-        - text: "Advetising"
-          disable: 0
-          new: 0
+#         - text: "Advetising"
+#           disable: 0
+#           new: 0
 
-        - text: "Game Development"
-          disable: 0
-          new: 0
+#         - text: "Game Development"
+#           disable: 0
+#           new: 0
 
-        - text: "Music Writing"
-          disable: 1
-          new: 0
+#         - text: "Music Writing"
+#           disable: 1
+#           new: 0
 
-        - text: "Photography"
-          disable: 1
-          new: 1
-      button_link: "#"
-      button_text: "Buy Basic"
+#         - text: "Photography"
+#           disable: 1
+#           new: 1
+#       button_link: "#"
+#       button_text: "Buy Basic"
 
-    - icon: "ion-speedometer"
-      name: "Pro"
-      price_pre: "$"
-      price: "48"
-      price_after: "hour"
-      list:
-        - text: "Web Development"
-          disable: 0
-          new: 0
+#     - icon: "ion-speedometer"
+#       name: "Pro"
+#       price_pre: "$"
+#       price: "48"
+#       price_after: "hour"
+#       list:
+#         - text: "Web Development"
+#           disable: 0
+#           new: 0
 
-        - text: "Advetising"
-          disable: 0
-          new: 0
+#         - text: "Advetising"
+#           disable: 0
+#           new: 0
 
-        - text: "Game Development"
-          disable: 0
-          new: 0
+#         - text: "Game Development"
+#           disable: 0
+#           new: 0
 
-        - text: "Music Writing"
-          disable: 0
-          new: 0
+#         - text: "Music Writing"
+#           disable: 0
+#           new: 0
 
-        - text: "Photography"
-          disable: 0
-          new: 1
-      button_link: "#"
-      button_text: "Buy Pro"
+#         - text: "Photography"
+#           disable: 0
+#           new: 1
+#       button_link: "#"
+#       button_text: "Buy Pro"
 
 ### Facts [ facts ]
 facts:
@@ -125,43 +127,43 @@ facts:
       name: "10 Countries Visited"
 
 ### Clients [ clients ]
-clients:
-  title: "Clients"
-  items:
-    - url: "https://www.google.com"
-      image: "images/clients/client_1.png"
-      title: "Company Inc."
+# clients:
+#   title: "Clients"
+#   items:
+#     - url: "https://www.google.com"
+#       image: "images/clients/client_1.png"
+#       title: "Company Inc."
 
-    - url: "https://www.google.com"
-      image: "images/clients/client_2.png"
-      title: "Company Inc."
+#     - url: "https://www.google.com"
+#       image: "images/clients/client_2.png"
+#       title: "Company Inc."
 
-    - url: "https://www.google.com"
-      image: "images/clients/client_3.png"
-      title: "Company Inc."
+#     - url: "https://www.google.com"
+#       image: "images/clients/client_3.png"
+#       title: "Company Inc."
 
-    - url: "https://www.google.com"
-      image: "images/clients/client_4.png"
-      title: "Company Inc."
+#     - url: "https://www.google.com"
+#       image: "images/clients/client_4.png"
+#       title: "Company Inc."
 
 ### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  items:
-    - image: "images/testi1.jpg"
-      name: "Helen Floyd"
-      subname: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+# testimonials:
+#   title: "Testimonials"
+#   items:
+#     - image: "images/testi1.jpg"
+#       name: "Helen Floyd"
+#       subname: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-    - image: "images/testi2.jpg"
-      name: "Robert Chase"
-      subname: "CEO"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#     - image: "images/testi2.jpg"
+#       name: "Robert Chase"
+#       subname: "CEO"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-    - image: "images/testi3.png"
-      name: "Helen Floyd"
-      subname: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#     - image: "images/testi3.png"
+#       name: "Helen Floyd"
+#       subname: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
 ### Resume [ resume ]
 resume:
@@ -170,46 +172,52 @@ resume:
     title: "Experience"
     icon: "ion-briefcase"
     items:
-      - year: "2013 - Present"
-        role: "Art Director"
-        company: "Facebook Inc."
-        text: "Collaborate with creative and development teams on the execution of ideas."
+      - year: "2019 - Present"
+        role: "Senior DevOps Consultant / Solution Architect"
+        company: "Computacenter."
+        text: "Help customer by designing and building modern cloud platform, which enables software development teams to provide applications and software components in an easy, standardised and highly automated manner according to DevOps paradigms."
         active: 1
         h_line: 1
 
-      - year: "2011 - 2012"
-        role: "Front-end Developer"
-        company: "Google Inc."
-        text: "Monitored technical aspects of the front-end delivery for several projects."
+      - year: "2017 - 2018"
+        role: "DevOps Operation Manager"
+        company: "T-Systems International"
+        text: "Coordinating the collaboration between development and operations teams by providing Continuous Integration (CI) and Continuous Delivery (CD) tools using Using configuration management tools like ansible, puppet, Terraform... ."
         active: 0
         h_line: 1
 
-      - year: "2009 - 2010"
-        role: "Senior Developer"
-        company: "Abc Inc."
-        text: "Optimize website performance using latest technology."
+      - year: "2015 - 2016"
+        role: "Configuration Manager / Release Manager"
+        company: "T-Systems International"
+        text: "Providing Infrastructure as Code (IaC) and coordinate the Software release process"
         active: 0
         h_line: 0
   education:
     title: "Education"
     icon: "ion-university"
     items:
-      - year: "2006 - 2008"
-        institution: "Art University"
-        city: "New York"
-        text: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
+      - year: "2002 - 2008"
+        institution: "University of Heidelberg"
+        city: "Heidelberg - Germany"
+        text: "Diplom Engineer's Degree in Medical informatic"
+        h_line: 1
+  
+      - year: "2022"
+        institution: "AWS Certification"
+        city: "Berlin"
+        text: "AWS Certified Solutions Architect"
+        h_line: 1
+      
+      - year: "2019"
+        institution: "Red Hat"
+        city: "Berlin"
+        text: "Red Hat Certified System Administrator"
         h_line: 1
 
-      - year: "2005 - 2006"
-        institution: "Programming Course"
-        city: "Paris"
-        text: "Coursework - Git, WordPress, Javascript, iOS, Android."
-        h_line: 1
-
-      - year: "2004 - 2005"
-        institution: "Web Design Course"
-        city: "London"
-        text: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+      - year: "2011"
+        institution: "Oracle"
+        city: "San Francisco"
+        text: "Oracle Database Certified Administrator"
         h_line: 0
 
 ### Skills [ skills ]
@@ -217,20 +225,20 @@ skills:
   title: "My Skills"
   columns:
     - type: "default" #skills progress type - default, dotted, circles, list
-      title: "Design"
+      title: "Design & Methodology"
       icon: "ion-easel"
       items:
-        - label: "Web Design"
+        - label: "Agile"
           value: "90" #0-100 progress in %
 
-        - label: "Write Music"
-          value: "65" #0-100 progress in %
+        - label: "DevOps"
+          value: "90" #0-100 progress in %
 
-        - label: "Photoshop"
+        - label: "Cloud Computing"
           value: "75" #0-100 progress in %
 
-        - label: "Graphic Design"
-          value: "85" #0-100 progress in %
+        - label: "Management"
+          value: "70" #0-100 progress in %
 
     - type: "dotted" #skills progress type - default, dotted, circles, list
       title: "Languages"
@@ -249,44 +257,44 @@ skills:
       title: "Coding"
       icon: "ion-code"
       items:
-        - label: "WordPress"
-          value: "90" #0-100 progress in %
+        - label: "Python"
+          value: "70" #0-100 progress in %
 
-        - label: "PHP / MYSQL"
+        - label: "Ansible"
+          value: "80" #0-100 progress in %
+
+        - label: "Terraform"
           value: "75" #0-100 progress in %
 
-        - label: "Angular / JavaScript"
-          value: "85" #0-100 progress in %
-
-        - label: "HTML / CSS"
-          value: "95" #0-100 progress in %
+        - label: "CI /CD"
+          value: "75" #0-100 progress in %
 
     - type: "list" #skills progress type - default, dotted, circles, list
       title: "Knowledge"
       icon: "ion-android-list"
       items:
-        - label: "Website hosting"
+        - label: "Docker / Kubernetes / Openshift"
           value: "" #0-100 progress in %
 
-        - label: "iOS and android apps"
+        - label: "Terraform / Cloudformation / Packer"
           value: "" #0-100 progress in %
 
-        - label: "Create logo design"
+        - label: "Ansible / Puppet"
           value: "" #0-100 progress in %
 
-        - label: "Design for print"
+        - label: "Scrum Master / Agile"
           value: "" #0-100 progress in %
 
-        - label: "Modern and mobile-ready"
+        - label: "Project Management"
           value: "" #0-100 progress in %
 
-        - label: "Advertising services include"
+        - label: "Configuration & Release Management"
           value: "" #0-100 progress in %
 
-        - label: "Graphics and animations"
+        - label: "AWS Solution Architect"
           value: "" #0-100 progress in %
 
-        - label: "Search engine marketing"
+        - label: "Databases"
           value: "" #0-100 progress in %
 
 ### Portfolio [ portfolio ]
